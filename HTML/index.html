@@ -1,0 +1,94 @@
+<!DOCTYPE html><!--le meto el signo de exclamacion y magia-->
+<html><!--RECUERDA ES UNA WEB, VA LA HEAD, BODY, TITLE, LUEGO EL CUERPO BODY, LAS LABELS, INPUT...-->
+<head><!--En la cabeza va el titulo, o pestaña del navegador-->
+    <title>CAZALLA DIGITAL</title>
+    <style>
+        table, th, td {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<br>
+<body>
+    <table style="width: 500px;">
+         <thead>
+            <tr>
+                <th>TIPO DE PERMISO</th>
+                <th>REQUISITOS</th>
+                <th>PRECIO</th>
+             </tr>
+         </thead>
+         <tbody>
+         <tr>
+            <th>B</th>
+            <td>+18 años</td>
+            <td>660€</td>
+            <tr>
+                <th>C</th>
+                <td>+21 años</td>
+                <td>860€</td>
+         </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td></td>
+            <td>TOTAL:</td>
+        </tfoot>
+    </table>
+<!--  ul ES UNA LISTA NO ORDENADA--><!-- li abre lineas de esa lista desordenada-->
+   <ul>
+       <li>Elemento A</li>
+       <li>Elemento B</li>
+       <li>Elemento C</li>
+   </ul>
+   <ol><!--Hace referencia a LISTA ORDENADA Y LOS ENUMERA--><!--Si quiero que la lista empiece a enumerar
+desde un número x le doy un value x a la primera (li value x) linea-->
+       <li value="20">Elemento A</li>
+       <li>Elemento B</li>
+       <li>Elemento C</li>
+       <li><!--AQUI TUNEO EL STYLE DE LA NUMERACIÓN A ROMANO LATIN ETC...eres un CRACK EN LA PRIMERA ol(ol style=)-->
+        <ol style="list-style-type: lower-greek;">
+            <li>Subelemento a</li>
+            <li>Subelemento b</li>
+            <li>Subelemento c</li>
+       </ol></li>
+    </ol>
+<hr>
+    <form action="/HTML/Formulario/" method="post"><!--AÑADO LABELS, CON ESTILO Y LOS PLACEHOLDERS Y LOS VALUE-->
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre"/>
+        <label for="apellido">Apellido</label>
+        <input value="García" type="text" id="apellido" name="apellido" placeholder="Tu 1er Apellido"/>
+        <label for="2apellido">Segundo Apellido</label>
+        <input type="text" id="2apellido" name="2apellido" placeholder="El 2º Apellido"> 
+        <br><br><br><!--CON br VAS A PÁRRAFO SIGUIENTE y con hr HACES SEPARACIÓN DE BLOQUES-->
+        <label for="comentarios">COMENTARIOS</label><br>
+        <textarea cols="60" rows="8"  id="comentarios" name="comentarios" placeholder="Ingrese sus comentarios..."></textarea>
+     <br><!--He cambiado input por button, recuerda que lo tuneas con type y su nombre y con JavaScript-->
+     <button type="menu">MENÚ</button>
+     <button type="reset">BORRAR</button>
+     <button type="enviar">ENVIAR</button><!--Añado imagenes a los botones y width o heidht tuneo el tamaño foto-->
+     <button type="button"><img src="img/IMG_20211114_213645.jpg" width="400"/>Pinche en la imagen</button>
+    </form> <hr><!---El tipo botón se puede tunear con JavaScript-->
+    <h1> <a href="https://enlasierramorena.blogspot.com">
+        <span style="color: rgb(255, 0, 13);">KAZALLA DIGITAL</span></a></h1>
+    <P>PROBANDO PROBANDO</P>
+    <h2>Tu mundo Digital</h2> <hr>
+    <h3>Conócenos</h3>
+    <h4>Que puedes hacer?</h4>
+    <h5>Contacto</h5>
+    <h6>TODOS LOS SERVICIOS</h6>
+    <P>Iluminación.Seguridad</P>
+    <p>MUCHOS SERVICIOS</p>
+    <hr>
+    <h3>DOMÓTICA</h3>
+    <!--Este es un texto interno para el desarrollador-->
+    <p>En un lugar <span style="color: blue;">de la Mancha,</span>
+        <br>
+         de cuyo nombre no quiero acordarme</p> <br>
+         <a target="_blank" href="https://enlasierramorena.blogspot.com">Me voy al Blog</a>
+         <br> <br>
+         <img src="IMG/IMG_20211114_213645.jpg" height="200"/>
+        
+</body>
+</html>
